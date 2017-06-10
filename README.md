@@ -14,9 +14,9 @@ This is a plugin for [Homebridge](https://github.com/nfarina/homebridge).  It al
 
 ```
 "platforms":
-	[
+    [
        	{
-		"platform": "PowerView",
+        "platform": "PowerView",
         "ip_address": "WWW.XXX.YYY.ZZZ",
         "debug": false,
         "fullmotiontime" : 30000,
@@ -24,8 +24,8 @@ This is a plugin for [Homebridge](https://github.com/nfarina/homebridge).  It al
         "defaultcurrentposition" : 50,
         "querytimeout": 10000,
         "queryattempts": 10
-		}
-	]
+        }
+    ]
 ```
 
 
