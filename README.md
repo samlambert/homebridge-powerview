@@ -9,7 +9,7 @@ This is a plugin for [Homebridge](https://github.com/nfarina/homebridge).  It al
 
 1.  Install [Homebridge](https://github.com/nfarina/homebridge) (if not already installed).
 2.  Install this plugin copying it to the node_modules folder (manual step until I get it setup in npm).
-	Alternatively run the following command:  npm install -g GvnCampbell/homebridge-powerview
+	Alternatively run the following command:  `npm install -g GvnCampbell/homebridge-powerview`
 3.  Update your confiugration file.  See below for a sample.
 
 
