@@ -2,6 +2,8 @@
 
 This is a plugin for [Homebridge](https://github.com/nfarina/homebridge).  It allows you to control your [Hunter Douglas PowerView](http://promos.hunterdouglas.ca/powerview-en/) roller blinds server using Siri and the Home app.
 
+**NOTE:** I only have the Gen 1 Powerview hub with the roller shades to test with.  I can't guarantee this will work with any other shades and it is very difficult to update the code to work with hardware I do not have. I am open to anybody willing to contribute code.
+
 
 # Installation
 
