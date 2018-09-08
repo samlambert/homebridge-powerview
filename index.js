@@ -176,11 +176,7 @@ PowerViewAccessory.prototype = {
         var cp = this.blindService.getCharacteristic(Characteristic.CurrentPosition).value;
         var tp = value;
 
-        var command = "curl -X PUT -H \"Content-Type: application/json\" -d \"{\\\"shade\\\":{\"id\":" +
-                        this.shadeid + ",\\\"positions\\\":{\\\"posKind1\\\":1,\\\"position1\\\":" +
-                        percentToPos(value) + "}}}\" \"http://" +
-                        this.ip_address + "/api/shades/" +
-                        this.shadeid + "\"";
+        var command = "curl -X PUT -H \"Content-Type: application/json\" -d \"{\\\"shade\\\":{\\\"id\\\":" + this.shadeid + ",\\\"positions\\\":{\\\"posKind1\\\":1,\\\"position1\\\":" + percentToPos(value) + "}}}\" \"http://" + this.ip_address + "/api/shades/" + this.shadeid + "\"";
 
         var that = this;
         that.buffer += 1;
